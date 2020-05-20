@@ -1,0 +1,21 @@
+{
+  "name": "nyg/holiday",
+  "license": "MIT",
+  "description": "查询返回是否节假日、农历",
+  "authors": [
+    {
+      "name": "nyg",
+      "email": "nyg1991@aliyun.com"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-iconv": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nyg\\Holiday\\": "src/"
+    }
+  }
+}
