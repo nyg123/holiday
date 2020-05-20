@@ -233,6 +233,9 @@ class Holiday
             return false;
         }
         $result = [];
+        if(empty($json['data'][0]['almanac'])){
+            return false;
+        }
         foreach ($json['data'][0]['almanac'] as $v) {
             $result[$v['year'] . ($v['month'] > 9 ? $v['month'] : '0' . $v['month'])][$v['day']] = $v;
         }
