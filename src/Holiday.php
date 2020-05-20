@@ -145,6 +145,17 @@ class Holiday
     }
 
     /**
+     * 刷新数据
+     * @param int $time 时间戳
+     * @return bool
+     * @author 牛永光 nyg1991@aliyun.com
+     * @date 2020/5/20 18:17
+     */
+    public function update($time){
+        return $this->getNewData($time);
+    }
+
+    /**
      * 获取日数据
      * @param $time
      * @return mixed

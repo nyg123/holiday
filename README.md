@@ -79,4 +79,10 @@ $result = $holiday->term(strtotime('2020-5-20'));
 // 小满
 ```
 
+###### 7，刷新数据
+```
+$result = $holiday->update($result = $holiday->update(strtotime('2020-5-20')););
+// 强制刷新当前月份及前后1个月的数据 返回逻辑值
+```
+
 
