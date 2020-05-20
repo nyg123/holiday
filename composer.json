@@ -1,7 +1,7 @@
 {
   "name": "nyg/holiday",
   "license": "MIT",
-  "description": "查询返回是否节假日、农历",
+  "description": "查询返回是否节假日、农历、节气",
   "authors": [
     {
       "name": "nyg",

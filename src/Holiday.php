@@ -81,6 +81,70 @@ class Holiday
     }
 
     /**
+     * 获取节气
+     * @param int $time 时间戳
+     * @return string
+     * @throws \Exception
+     * @author 牛永光 nyg1991@aliyun.com
+     */
+    public function term($time)
+    {
+        $day = $this->getDay($time);
+        return $day['term'];
+    }
+
+    /**
+     * 获取农历
+     * @param int $time 时间戳
+     * @return array year 农历年 month 农历月 day 农历日 lmonth 中文月 ldate 中文日 gz_*** 庚子年月日
+     * @throws \Exception
+     * @author 牛永光 nyg1991@aliyun.com
+     * @date 2020/5/20 16:52
+     */
+    public function getLunar($time)
+    {
+        $day = $this->getDay($time);
+        return [
+            'year' => $day['lunarYear'],
+            'month' => $day['lunarMonth'],
+            'day' => $day['lunarDate'],
+            'lmonth' => $day['lMonth'],
+            'ldate' => $day['lDate'],
+            'gz_year' => $day['gzYear'],
+            'gz_month' => $day['gzMonth'],
+            'gz_date' => $day['gzDate'],
+        ];
+    }
+
+    /**
+     * 获取当前所在节假日，为空则不在节假日
+     * @param int $time 时间戳
+     * @return string
+     * @throws \Exception
+     * @author 牛永光 nyg1991@aliyun.com
+     */
+    public function nowHoliday($time)
+    {
+        $before = $time;
+        while ($this->isHoliday($before)) {
+            $day = $this->getDay($before);
+            if ($this->holidayName($day) != '') {
+                return $this->holidayName($day);
+            }
+            $before -= 86400;
+        }
+        $after = $time + 86400;
+        while ($this->isHoliday($after)) {
+            $day = $this->getDay($after);
+            if ($this->holidayName($day) != '') {
+                return $this->holidayName($day);
+            }
+            $before += 86400;
+        }
+        return '';
+    }
+
+    /**
      * 获取日数据
      * @param $time
      * @return mixed
@@ -229,33 +293,5 @@ class Holiday
     private function dayToTimestamp($day)
     {
         return strtotime($day['year'] . '-' . $day['month'] . '-' . $day['day']);
-    }
-
-    /**
-     * 获取当前所在节假日，为空则不在节假日
-     * @param int $time 时间戳
-     * @return string
-     * @throws \Exception
-     * @author 牛永光 nyg1991@aliyun.com
-     */
-    public function nowHoliday($time)
-    {
-        $before = $time;
-        while ($this->isHoliday($before)) {
-            $day = $this->getDay($before);
-            if ($this->holidayName($day) != '') {
-                return $this->holidayName($day);
-            }
-            $before -= 86400;
-        }
-        $after = $time + 86400;
-        while ($this->isHoliday($after)) {
-            $day = $this->getDay($after);
-            if ($this->holidayName($day) != '') {
-                return $this->holidayName($day);
-            }
-            $before += 86400;
-        }
-        return '';
     }
 }
