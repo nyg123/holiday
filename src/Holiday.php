@@ -151,7 +151,8 @@ class Holiday
      * @author 牛永光 nyg1991@aliyun.com
      * @date 2020/5/20 18:17
      */
-    public function update($time){
+    public function update($time)
+    {
         return $this->getNewData($time);
     }
 
@@ -233,7 +234,7 @@ class Holiday
             return false;
         }
         $result = [];
-        if(empty($json['data'][0]['almanac'])){
+        if (empty($json['data'][0]['almanac'])) {
             return false;
         }
         foreach ($json['data'][0]['almanac'] as $v) {
@@ -244,6 +245,8 @@ class Holiday
             foreach ($v as $v2) {
                 $tmp[$v2['day']] = $v2;
             }
+            unset($tmp['avoid']);
+            unset($tmp['suit']);
             $this->data[$k] = $tmp;
             file_put_contents(__DIR__ . '/../cache/' . $k . ".json", json_encode($tmp));
         }
