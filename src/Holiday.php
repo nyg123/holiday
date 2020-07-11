@@ -274,11 +274,13 @@ class Holiday
                 $name = '劳动节';
                 break;
             case '1001':
+            case '1002':
+            case '1003':
                 $name = '国庆节';
                 break;
         }
         if (isset($day['value'])) {
-            switch ($day['value']) {
+            switch (trim($day['value'])) {
                 case '除夕':
                 case '春节':
                     $name = '春节';
@@ -294,7 +296,10 @@ class Holiday
         if ($day['lMonth'] == '正' && $day['lDate'] == '初二') {//正月初二属于中国假期
             $name = '春节';
         }
-        if ($day['term'] == '清明') { //中国节气
+        if (date('Y', $time) == 2014 && $day['lMonth'] == '正' && $day['lDate'] == '初三') { //2014年初三是假期
+            $name = '春节';
+        }
+        if ($day['term'] == '清明节' || $day['term'] == '清明') { //中国节气
             $name = '清明节';
         }
         return $name;
