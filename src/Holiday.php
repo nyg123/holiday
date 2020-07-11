@@ -243,10 +243,10 @@ class Holiday
         foreach ($result as $k => $v) {
             $tmp = [];
             foreach ($v as $v2) {
+                unset($v2['avoid']);
+                unset($v2['suit']);
                 $tmp[$v2['day']] = $v2;
             }
-            unset($tmp['avoid']);
-            unset($tmp['suit']);
             $this->data[$k] = $tmp;
             file_put_contents(__DIR__ . '/../cache/' . $k . ".json", json_encode($tmp));
         }
