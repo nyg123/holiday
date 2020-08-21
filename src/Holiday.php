@@ -4,9 +4,16 @@ namespace Nyg;
 
 class Holiday
 {
-    const TYPE_ALL = 1; //全部节假日 包括周末
+    /**
+     * 全部节假日 包括周末
+     */
+    const TYPE_ALL = 1;
     const TYPE_WEENEND = 2; //普通的周末，2倍工资的那种
-    const TYPE_HOLIDAY = 3; //只包含节日，3倍工资的那种，节日当天
+
+    /**
+     * 只包含节日，3倍工资的那种，节日当天
+     */
+    const TYPE_HOLIDAY = 3;
     const TYPE_VACATION = 4; //节假日，节日+节日前后调休的部分
     private $data;
 
@@ -78,6 +85,167 @@ class Holiday
             }
         }
         return false;
+    }
+
+    /**
+     * 获取日数据
+     * @param $time
+     * @return mixed
+     * @throws \Exception
+     * @author 牛永光 nyg1991@aliyun.com
+     */
+    private function getDay($time)
+    {
+        $month = $this->getMonth($time);
+        $day = $month[date('j', $time)];
+        return $day;
+    }
+
+    /**
+     * 获取节日名称
+     * @param $day
+     * @return string
+     * @author 牛永光 nyg1991@aliyun.com
+     */
+    private function holidayName($day)
+    {
+        if (!isset($day['status']) || $day['status'] != 1) {
+            return '';
+        }
+        $time = $this->dayToTimestamp($day);
+        $name = '';
+        switch (date('md', $time)) {
+            case '0101':
+                $name = '元旦节';
+                break;
+            case '0501':
+                $name = '劳动节';
+                break;
+            case '1001':
+            case '1002':
+            case '1003':
+                $name = '国庆节';
+                break;
+        }
+        if (isset($day['value'])) {
+            switch (trim($day['value'])) {
+                case '除夕':
+                case '春节':
+                    $name = '春节';
+                    break;
+                case '端午节':
+                    $name = '端午节';
+                    break;
+                case '中秋节':
+                    $name = '中秋节';
+                    break;
+            }
+        }
+        if ($day['lMonth'] == '正' && ($day['lDate'] == '初二' || $day['lDate'] == '初一')) {//正月初二属于中国假期
+            $name = '春节';
+        }
+        if (date('Y', $time) == 2014 && $day['lMonth'] == '正' && $day['lDate'] == '初三') { //2014年初三是假期
+            $name = '春节';
+        }
+        if ($day['term'] == '清明节' || $day['term'] == '清明') { //中国节气
+            $name = '清明节';
+        }
+        return $name;
+    }
+
+    /**
+     * 获取月数据
+     * @param $time
+     * @return bool
+     * @throws \Exception
+     * @author 牛永光 nyg1991@aliyun.com
+     */
+    private function getMonth($time)
+    {
+        $key = date('Ym', $time);
+        if (isset($this->data[$key])) {
+            return $this->data[$key];
+        }
+        //去文件中查文件是否存在
+        $file = __DIR__ . '/../cache/' . $key . ".json";
+        if (!file_exists($file)) { //文件不存在
+            $this->getNewData($time);
+            if (isset($this->data[$key])) {
+                return $this->data[$key];
+            }
+        }
+        if (time() - filemtime($file) > 259200 && $time > time()) { //获取未来的节假日，超过3天，更新数据
+            $this->getNewData($time);
+            if (isset($this->data[$key])) {
+                return $this->data[$key];
+            }
+        }
+        if (file_exists($file)) {
+            $data = file_get_contents($file);
+            $this->data[$key] = json_decode($data, true);
+            return $this->data[$key];
+        }
+        throw new \Exception("获取时间失败！");
+    }
+
+    /**
+     * 日期转时间戳
+     * @param $day
+     * @return false|int
+     * @author 牛永光 nyg1991@aliyun.com
+     * @date 2020/5/20 15:50
+     */
+    private function dayToTimestamp($day)
+    {
+        return strtotime($day['year'] . '-' . $day['month'] . '-' . $day['day']);
+    }
+
+    /**
+     * 获取并生成最新的数据json
+     * @param int $time
+     * @return bool
+     * @author 牛永光 nyg1991@aliyun.com
+     */
+    private function getNewData($time)
+    {
+        $time = date('Y年n月', $time);
+        $url = "http://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?query={$time}&co=&resource_id=39043&ie=utf8&format=json&tn=wisetpl";
+        $curl = curl_init();
+        curl_setopt($curl, CURLOPT_URL, $url);
+        curl_setopt($curl, CURLOPT_HEADER, 0);
+        curl_setopt($curl, CURLOPT_TIMEOUT_MS, 500);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+        $data = curl_exec($curl);
+        if (curl_error($curl)) {
+            return false;
+        }
+        // 显示错误信息
+        curl_close($curl);
+        $data = iconv('GBK', 'UTF-8', $data);
+        $json = json_decode($data, true);
+        if (!isset($json['status']) || $json['status'] != 0) {
+            return false;
+        }
+        $result = [];
+        if (empty($json['data'][0]['almanac'])) {
+            return false;
+        }
+        foreach ($json['data'][0]['almanac'] as $v) {
+            $result[$v['year'] . ($v['month'] > 9 ? $v['month'] : '0' . $v['month'])][$v['day']] = $v;
+        }
+        foreach ($result as $k => $v) {
+            $tmp = [];
+            foreach ($v as $v2) {
+                unset($v2['avoid']);
+                unset($v2['suit']);
+                $tmp[$v2['day']] = $v2;
+            }
+            $this->data[$k] = $tmp;
+            file_put_contents(__DIR__ . '/../cache/' . $k . ".json", json_encode($tmp));
+        }
+        return true;
     }
 
     /**
@@ -154,166 +322,5 @@ class Holiday
     public function update($time)
     {
         return $this->getNewData($time);
-    }
-
-    /**
-     * 获取日数据
-     * @param $time
-     * @return mixed
-     * @throws \Exception
-     * @author 牛永光 nyg1991@aliyun.com
-     */
-    private function getDay($time)
-    {
-        $month = $this->getMonth($time);
-        $day = $month[date('j', $time)];
-        return $day;
-    }
-
-    /**
-     * 获取月数据
-     * @param $time
-     * @return bool
-     * @throws \Exception
-     * @author 牛永光 nyg1991@aliyun.com
-     */
-    private function getMonth($time)
-    {
-        $key = date('Ym', $time);
-        if (isset($this->data[$key])) {
-            return $this->data[$key];
-        }
-        //去文件中查文件是否存在
-        $file = __DIR__ . '/../cache/' . $key . ".json";
-        if (!file_exists($file)) { //文件不存在
-            $this->getNewData($time);
-            if (isset($this->data[$key])) {
-                return $this->data[$key];
-            }
-        }
-        if (time() - filemtime($file) > 259200 && $time > time()) { //获取未来的节假日，超过3天，更新数据
-            $this->getNewData($time);
-            if (isset($this->data[$key])) {
-                return $this->data[$key];
-            }
-        }
-        if (file_exists($file)) {
-            $data = file_get_contents($file);
-            $this->data[$key] = json_decode($data, true);
-            return $this->data[$key];
-        }
-        throw new \Exception("获取时间失败！");
-    }
-
-    /**
-     * 获取并生成最新的数据json
-     * @param int $time
-     * @return bool
-     * @author 牛永光 nyg1991@aliyun.com
-     */
-    private function getNewData($time)
-    {
-        $time = date('Y年n月', $time);
-        $url = "http://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?query={$time}&co=&resource_id=39043&ie=utf8&format=json&tn=wisetpl";
-        $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, $url);
-        curl_setopt($curl, CURLOPT_HEADER, 0);
-        curl_setopt($curl, CURLOPT_TIMEOUT_MS, 500);
-        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
-        $data = curl_exec($curl);
-        if (curl_error($curl)) {
-            return false;
-        }
-        // 显示错误信息
-        curl_close($curl);
-        $data = iconv('GBK', 'UTF-8', $data);
-        $json = json_decode($data, true);
-        if (!isset($json['status']) || $json['status'] != 0) {
-            return false;
-        }
-        $result = [];
-        if (empty($json['data'][0]['almanac'])) {
-            return false;
-        }
-        foreach ($json['data'][0]['almanac'] as $v) {
-            $result[$v['year'] . ($v['month'] > 9 ? $v['month'] : '0' . $v['month'])][$v['day']] = $v;
-        }
-        foreach ($result as $k => $v) {
-            $tmp = [];
-            foreach ($v as $v2) {
-                unset($v2['avoid']);
-                unset($v2['suit']);
-                $tmp[$v2['day']] = $v2;
-            }
-            $this->data[$k] = $tmp;
-            file_put_contents(__DIR__ . '/../cache/' . $k . ".json", json_encode($tmp));
-        }
-        return true;
-    }
-
-    /**
-     * 获取节日名称
-     * @param $day
-     * @return string
-     * @author 牛永光 nyg1991@aliyun.com
-     */
-    private function holidayName($day)
-    {
-        if (!isset($day['status']) || $day['status'] != 1) {
-            return '';
-        }
-        $time = $this->dayToTimestamp($day);
-        $name = '';
-        switch (date('md', $time)) {
-            case '0101':
-                $name = '元旦节';
-                break;
-            case '0501':
-                $name = '劳动节';
-                break;
-            case '1001':
-            case '1002':
-            case '1003':
-                $name = '国庆节';
-                break;
-        }
-        if (isset($day['value'])) {
-            switch (trim($day['value'])) {
-                case '除夕':
-                case '春节':
-                    $name = '春节';
-                    break;
-                case '端午节':
-                    $name = '端午节';
-                    break;
-                case '中秋节':
-                    $name = '中秋节';
-                    break;
-            }
-        }
-        if ($day['lMonth'] == '正' && $day['lDate'] == '初二') {//正月初二属于中国假期
-            $name = '春节';
-        }
-        if (date('Y', $time) == 2014 && $day['lMonth'] == '正' && $day['lDate'] == '初三') { //2014年初三是假期
-            $name = '春节';
-        }
-        if ($day['term'] == '清明节' || $day['term'] == '清明') { //中国节气
-            $name = '清明节';
-        }
-        return $name;
-    }
-
-    /**
-     * 日期转时间戳
-     * @param $day
-     * @return false|int
-     * @author 牛永光 nyg1991@aliyun.com
-     * @date 2020/5/20 15:50
-     */
-    private function dayToTimestamp($day)
-    {
-        return strtotime($day['year'] . '-' . $day['month'] . '-' . $day['day']);
     }
 }
