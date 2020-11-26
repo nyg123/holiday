@@ -5,6 +5,16 @@ use Nyg\Holiday;
 
 class CheckTest extends \PHPUnit\Framework\TestCase
 {
+    public function testYear2021()
+    {
+        $year=2021;
+        $holiday = new Holiday();
+        $day1=$holiday->count(strtotime("{$year}-1-1"), strtotime("{$year}-12-31"), Holiday::TYPE_ALL);
+        $this->assertEquals(115,$day1);
+        $day3 = $holiday->count(strtotime("{$year}-1-1"), strtotime("{$year}-12-31"), Holiday::TYPE_HOLIDAY);
+        $this->assertEquals(11,$day3);
+    }
+
     public function testYear2020()
     {
         $year=2020;
@@ -41,6 +51,16 @@ class CheckTest extends \PHPUnit\Framework\TestCase
         $holiday = new Holiday();
         $day1=$holiday->count(strtotime("{$year}-1-1"), strtotime("{$year}-12-31"), Holiday::TYPE_ALL);
         $this->assertEquals(116,$day1);
+        $day3 = $holiday->count(strtotime("{$year}-1-1"), strtotime("{$year}-12-31"), Holiday::TYPE_HOLIDAY);
+        $this->assertEquals(11,$day3);
+    }
+
+    public function testYear2014()
+    {
+        $year=2014;
+        $holiday = new Holiday();
+        $day1=$holiday->count(strtotime("{$year}-1-1"), strtotime("{$year}-12-31"), Holiday::TYPE_ALL);
+        $this->assertEquals(115,$day1);
         $day3 = $holiday->count(strtotime("{$year}-1-1"), strtotime("{$year}-12-31"), Holiday::TYPE_HOLIDAY);
         $this->assertEquals(11,$day3);
     }
