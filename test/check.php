@@ -5,14 +5,14 @@ include_once './src/Holiday.php';
 use nyg\Holiday;
 
 $holiday = new holiday();
-for ($year=2011;$year<=2020;$year++){
+for ($year=2011;$year<=2021;$year++){
     if($year==2020){
-        $num_3=10;
+        $holiday_num=10;
     }else{
-        $num_3=11;
+        $holiday_num=11;
     }
     echo "{$year}法定假期数:";
-    if ($holiday->count(strtotime("{$year}-1-1"), strtotime("{$year}-12-31"), Holiday::TYPE_HOLIDAY) != $num_3) {
+    if ($holiday->count(strtotime("{$year}-1-1"), strtotime("{$year}-12-31"), Holiday::TYPE_HOLIDAY) != $holiday_num) {
         echo 'false';
     }else{
         echo 'true';

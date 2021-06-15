@@ -141,6 +141,20 @@ class Holiday
                     break;
             }
         }
+        if (isset($day['festival'])) {
+            switch (trim($day['festival'])) {
+                case '除夕':
+                case '春节':
+                    $name = '春节';
+                    break;
+                case '端午节':
+                    $name = '端午节';
+                    break;
+                case '中秋节':
+                    $name = '中秋节';
+                    break;
+            }
+        }
         if ($day['lMonth'] == '正' && ($day['lDate'] == '初二' || $day['lDate'] == '初一')) {//正月初二属于中国假期
             $name = '春节';
         }
@@ -243,7 +257,8 @@ class Holiday
                 $tmp[$v2['day']] = $v2;
             }
             $this->data[$k] = $tmp;
-            file_put_contents(__DIR__ . '/../cache/' . $k . ".json", json_encode($tmp));
+            file_put_contents(__DIR__ . '/../cache/' . $k . ".json",
+                json_encode($tmp, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
         }
         return true;
     }
@@ -293,6 +308,12 @@ class Holiday
      */
     public function nowHoliday($time)
     {
+        if (!is_numeric($time)) {
+            $time = strtotime($time);
+        }
+        if ($time <= 0) {
+            throw new \Exception("时间格式有误！");
+        }
         $before = $time;
         while ($this->isHoliday($before)) {
             $day = $this->getDay($before);
@@ -307,7 +328,7 @@ class Holiday
             if ($this->holidayName($day) != '') {
                 return $this->holidayName($day);
             }
-            $before += 86400;
+            $after += 86400;
         }
         return '';
     }
