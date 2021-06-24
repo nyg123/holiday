@@ -1,7 +1,7 @@
 {
   "name": "nyg/holiday",
   "license": "MIT",
-  "description": "查询返回是否节假日、农历、节气",
+  "description": "查询是否节假日 农历 节气 中国 2倍工资 3倍工资",
   "authors": [
     {
       "name": "nyg",
