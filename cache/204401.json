@@ -3,7 +3,6 @@
         "animal": "猪",
         "cnDay": "五",
         "day": "1",
-        "desc": "元旦",
         "gzDate": "己酉",
         "gzMonth": "甲子",
         "gzYear": "癸亥",
@@ -15,9 +14,8 @@
         "lunarYear": "2043",
         "month": "1",
         "oDate": "2043-12-31T16:00:00.000Z",
-        "term": "",
+        "term": "元旦",
         "type": "h",
-        "value": "元旦",
         "year": "2044"
     },
     "2": {
@@ -128,7 +126,6 @@
         "oDate": "2044-01-06T16:00:00.000Z",
         "term": "",
         "type": "t",
-        "value": "腊八节",
         "year": "2044"
     },
     "8": {
@@ -388,7 +385,6 @@
         "animal": "猪",
         "cnDay": "五",
         "day": "22",
-        "desc": "北方小年",
         "gzDate": "庚午",
         "gzMonth": "乙丑",
         "gzYear": "癸亥",
@@ -400,7 +396,7 @@
         "lunarYear": "2043",
         "month": "1",
         "oDate": "2044-01-21T16:00:00.000Z",
-        "term": "",
+        "term": "北小年",
         "type": "t",
         "value": "",
         "year": "2044"
@@ -409,7 +405,6 @@
         "animal": "猪",
         "cnDay": "六",
         "day": "23",
-        "desc": "南方小年",
         "gzDate": "辛未",
         "gzMonth": "乙丑",
         "gzYear": "癸亥",
@@ -421,7 +416,7 @@
         "lunarYear": "2043",
         "month": "1",
         "oDate": "2044-01-22T16:00:00.000Z",
-        "term": "",
+        "term": "南小年",
         "year": "2044"
     },
     "24": {
@@ -464,7 +459,6 @@
         "animal": "猪",
         "cnDay": "二",
         "day": "26",
-        "desc": "国际海关日",
         "gzDate": "甲戌",
         "gzMonth": "乙丑",
         "gzYear": "癸亥",
@@ -477,6 +471,7 @@
         "month": "1",
         "oDate": "2044-01-25T16:00:00.000Z",
         "term": "",
+        "value": "国际海关日",
         "year": "2044"
     },
     "27": {
@@ -519,7 +514,6 @@
         "animal": "猪",
         "cnDay": "五",
         "day": "29",
-        "desc": "除夕",
         "gzDate": "丁丑",
         "gzMonth": "乙丑",
         "gzYear": "癸亥",
@@ -531,16 +525,14 @@
         "lunarYear": "2043",
         "month": "1",
         "oDate": "2044-01-28T16:00:00.000Z",
-        "term": "",
+        "term": "除夕",
         "type": "t",
-        "value": "除夕",
         "year": "2044"
     },
     "30": {
         "animal": "鼠",
         "cnDay": "六",
         "day": "30",
-        "desc": "春节",
         "gzDate": "戊寅",
         "gzMonth": "乙丑",
         "gzYear": "甲子",
@@ -552,9 +544,8 @@
         "lunarYear": "2044",
         "month": "1",
         "oDate": "2044-01-29T16:00:00.000Z",
-        "term": "",
+        "term": "春节",
         "type": "t",
-        "value": "春节",
         "year": "2044"
     },
     "31": {

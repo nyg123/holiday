@@ -21,7 +21,6 @@
         "animal": "猪",
         "cnDay": "日",
         "day": "2",
-        "desc": "湿地日",
         "gzDate": "癸酉",
         "gzMonth": "己丑",
         "gzYear": "辛亥",
@@ -78,6 +77,7 @@
         "animal": "猪",
         "cnDay": "三",
         "day": "5",
+        "desc": "六九",
         "gzDate": "丙子",
         "gzMonth": "庚寅",
         "gzYear": "辛亥",
@@ -90,14 +90,12 @@
         "month": "2",
         "oDate": "2031-02-04T16:00:00.000Z",
         "term": "",
-        "value": "六九",
         "year": "2031"
     },
     "6": {
         "animal": "猪",
         "cnDay": "四",
         "day": "6",
-        "desc": "元宵节",
         "gzDate": "丁丑",
         "gzMonth": "庚寅",
         "gzYear": "辛亥",
@@ -111,7 +109,6 @@
         "oDate": "2031-02-05T16:00:00.000Z",
         "term": "元宵节",
         "type": "t",
-        "value": "元宵节",
         "year": "2031"
     },
     "7": {
@@ -172,7 +169,6 @@
         "animal": "猪",
         "cnDay": "一",
         "day": "10",
-        "desc": "国际气象节",
         "gzDate": "辛巳",
         "gzMonth": "庚寅",
         "gzYear": "辛亥",
@@ -185,6 +181,7 @@
         "month": "2",
         "oDate": "2031-02-09T16:00:00.000Z",
         "term": "",
+        "value": "国际气象节",
         "year": "2031"
     },
     "11": {
@@ -245,7 +242,6 @@
         "animal": "猪",
         "cnDay": "五",
         "day": "14",
-        "desc": "情人节",
         "gzDate": "乙酉",
         "gzMonth": "庚寅",
         "gzYear": "辛亥",
@@ -257,9 +253,8 @@
         "lunarYear": "2031",
         "month": "2",
         "oDate": "2031-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "情人节 七九",
         "type": "a",
-        "value": "七九",
         "year": "2031"
     },
     "15": {
@@ -392,7 +387,6 @@
         "animal": "猪",
         "cnDay": "六",
         "day": "22",
-        "desc": "龙头节",
         "gzDate": "癸巳",
         "gzMonth": "庚寅",
         "gzYear": "辛亥",
@@ -413,6 +407,7 @@
         "animal": "猪",
         "cnDay": "日",
         "day": "23",
+        "desc": "八九",
         "gzDate": "甲午",
         "gzMonth": "庚寅",
         "gzYear": "辛亥",
@@ -425,7 +420,6 @@
         "month": "2",
         "oDate": "2031-02-22T16:00:00.000Z",
         "term": "",
-        "value": "八九",
         "year": "2031"
     },
     "24": {

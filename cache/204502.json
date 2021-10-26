@@ -21,7 +21,6 @@
         "animal": "鼠",
         "cnDay": "四",
         "day": "2",
-        "desc": "湿地日",
         "gzDate": "丁亥",
         "gzMonth": "丁丑",
         "gzYear": "甲子",
@@ -150,7 +149,6 @@
         "animal": "鼠",
         "cnDay": "四",
         "day": "9",
-        "desc": "北方小年",
         "gzDate": "甲午",
         "gzMonth": "戊寅",
         "gzYear": "甲子",
@@ -162,7 +160,7 @@
         "lunarYear": "2044",
         "month": "2",
         "oDate": "2045-02-08T16:00:00.000Z",
-        "term": "",
+        "term": "北小年",
         "type": "t",
         "value": "",
         "year": "2045"
@@ -171,7 +169,6 @@
         "animal": "鼠",
         "cnDay": "五",
         "day": "10",
-        "desc": "南方小年",
         "gzDate": "乙未",
         "gzMonth": "戊寅",
         "gzYear": "甲子",
@@ -183,7 +180,8 @@
         "lunarYear": "2044",
         "month": "2",
         "oDate": "2045-02-09T16:00:00.000Z",
-        "term": "国际气象节",
+        "term": "南小年",
+        "value": "国际气象节",
         "year": "2045"
     },
     "11": {
@@ -244,7 +242,6 @@
         "animal": "鼠",
         "cnDay": "二",
         "day": "14",
-        "desc": "情人节",
         "gzDate": "己亥",
         "gzMonth": "戊寅",
         "gzYear": "甲子",
@@ -256,9 +253,8 @@
         "lunarYear": "2044",
         "month": "2",
         "oDate": "2045-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "情人节",
         "type": "a",
-        "value": "情人节",
         "year": "2045"
     },
     "15": {
@@ -283,7 +279,6 @@
         "animal": "鼠",
         "cnDay": "四",
         "day": "16",
-        "desc": "除夕",
         "gzDate": "辛丑",
         "gzMonth": "戊寅",
         "gzYear": "甲子",
@@ -295,16 +290,14 @@
         "lunarYear": "2044",
         "month": "2",
         "oDate": "2045-02-15T16:00:00.000Z",
-        "term": "",
+        "term": "除夕",
         "type": "t",
-        "value": "除夕",
         "year": "2045"
     },
     "17": {
         "animal": "牛",
         "cnDay": "五",
         "day": "17",
-        "desc": "春节",
         "gzDate": "壬寅",
         "gzMonth": "戊寅",
         "gzYear": "乙丑",
@@ -316,9 +309,8 @@
         "lunarYear": "2045",
         "month": "2",
         "oDate": "2045-02-16T16:00:00.000Z",
-        "term": "",
+        "term": "春节",
         "type": "t",
-        "value": "春节",
         "year": "2045"
     },
     "18": {

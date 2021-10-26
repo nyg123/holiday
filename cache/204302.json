@@ -21,7 +21,6 @@
         "animal": "狗",
         "cnDay": "一",
         "day": "2",
-        "desc": "北方小年",
         "gzDate": "丙子",
         "gzMonth": "癸丑",
         "gzYear": "壬戌",
@@ -33,7 +32,7 @@
         "lunarYear": "2042",
         "month": "2",
         "oDate": "2043-02-01T16:00:00.000Z",
-        "term": "",
+        "term": "北小年",
         "type": "t",
         "value": "",
         "year": "2043"
@@ -42,7 +41,6 @@
         "animal": "狗",
         "cnDay": "二",
         "day": "3",
-        "desc": "南方小年",
         "gzDate": "丁丑",
         "gzMonth": "癸丑",
         "gzYear": "壬戌",
@@ -54,7 +52,7 @@
         "lunarYear": "2042",
         "month": "2",
         "oDate": "2043-02-02T16:00:00.000Z",
-        "term": "",
+        "term": "南小年",
         "year": "2043"
     },
     "4": {
@@ -151,7 +149,6 @@
         "animal": "狗",
         "cnDay": "一",
         "day": "9",
-        "desc": "除夕",
         "gzDate": "癸未",
         "gzMonth": "甲寅",
         "gzYear": "壬戌",
@@ -163,16 +160,14 @@
         "lunarYear": "2042",
         "month": "2",
         "oDate": "2043-02-08T16:00:00.000Z",
-        "term": "",
+        "term": "除夕",
         "type": "t",
-        "value": "除夕",
         "year": "2043"
     },
     "10": {
         "animal": "猪",
         "cnDay": "二",
         "day": "10",
-        "desc": "春节",
         "gzDate": "甲申",
         "gzMonth": "甲寅",
         "gzYear": "癸亥",
@@ -184,9 +179,9 @@
         "lunarYear": "2043",
         "month": "2",
         "oDate": "2043-02-09T16:00:00.000Z",
-        "term": "国际气象节",
+        "term": "春节",
         "type": "t",
-        "value": "春节",
+        "value": "国际气象节",
         "year": "2043"
     },
     "11": {
@@ -247,7 +242,6 @@
         "animal": "猪",
         "cnDay": "六",
         "day": "14",
-        "desc": "情人节",
         "gzDate": "戊子",
         "gzMonth": "甲寅",
         "gzYear": "癸亥",
@@ -259,9 +253,8 @@
         "lunarYear": "2043",
         "month": "2",
         "oDate": "2043-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "情人节",
         "type": "a",
-        "value": "情人节",
         "year": "2043"
     },
     "15": {
@@ -430,7 +423,6 @@
         "animal": "猪",
         "cnDay": "二",
         "day": "24",
-        "desc": "元宵节",
         "gzDate": "戊戌",
         "gzMonth": "甲寅",
         "gzYear": "癸亥",
@@ -444,7 +436,6 @@
         "oDate": "2043-02-23T16:00:00.000Z",
         "term": "元宵节",
         "type": "t",
-        "value": "元宵节",
         "year": "2043"
     },
     "25": {

@@ -21,7 +21,6 @@
         "animal": "马",
         "cnDay": "二",
         "day": "2",
-        "desc": "湿地日",
         "gzDate": "壬子",
         "gzMonth": "辛丑",
         "gzYear": "丙午",
@@ -78,7 +77,7 @@
         "animal": "马",
         "cnDay": "五",
         "day": "5",
-        "desc": "除夕",
+        "desc": "六九",
         "gzDate": "乙卯",
         "gzMonth": "壬寅",
         "gzYear": "丙午",
@@ -90,16 +89,14 @@
         "lunarYear": "2026",
         "month": "2",
         "oDate": "2027-02-04T16:00:00.000Z",
-        "term": "",
+        "term": "除夕",
         "type": "t",
-        "value": "六九",
         "year": "2027"
     },
     "6": {
         "animal": "羊",
         "cnDay": "六",
         "day": "6",
-        "desc": "春节",
         "gzDate": "丙辰",
         "gzMonth": "壬寅",
         "gzYear": "丁未",
@@ -111,9 +108,8 @@
         "lunarYear": "2027",
         "month": "2",
         "oDate": "2027-02-05T16:00:00.000Z",
-        "term": "",
+        "term": "春节",
         "type": "t",
-        "value": "春节",
         "year": "2027"
     },
     "7": {
@@ -174,7 +170,6 @@
         "animal": "羊",
         "cnDay": "三",
         "day": "10",
-        "desc": "国际气象节",
         "gzDate": "庚申",
         "gzMonth": "壬寅",
         "gzYear": "丁未",
@@ -187,6 +182,7 @@
         "month": "2",
         "oDate": "2027-02-09T16:00:00.000Z",
         "term": "",
+        "value": "国际气象节",
         "year": "2027"
     },
     "11": {
@@ -247,7 +243,6 @@
         "animal": "羊",
         "cnDay": "日",
         "day": "14",
-        "desc": "情人节",
         "gzDate": "甲子",
         "gzMonth": "壬寅",
         "gzYear": "丁未",
@@ -259,9 +254,8 @@
         "lunarYear": "2027",
         "month": "2",
         "oDate": "2027-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "情人节 七九",
         "type": "a",
-        "value": "七九",
         "year": "2027"
     },
     "15": {
@@ -358,7 +352,6 @@
         "animal": "羊",
         "cnDay": "六",
         "day": "20",
-        "desc": "元宵节",
         "gzDate": "庚午",
         "gzMonth": "壬寅",
         "gzYear": "丁未",
@@ -372,7 +365,6 @@
         "oDate": "2027-02-19T16:00:00.000Z",
         "term": "元宵节",
         "type": "t",
-        "value": "元宵节",
         "year": "2027"
     },
     "21": {
@@ -415,6 +407,7 @@
         "animal": "羊",
         "cnDay": "二",
         "day": "23",
+        "desc": "八九",
         "gzDate": "癸酉",
         "gzMonth": "壬寅",
         "gzYear": "丁未",
@@ -427,7 +420,6 @@
         "month": "2",
         "oDate": "2027-02-22T16:00:00.000Z",
         "term": "",
-        "value": "八九",
         "year": "2027"
     },
     "24": {

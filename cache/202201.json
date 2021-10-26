@@ -3,7 +3,6 @@
         "animal": "牛",
         "cnDay": "六",
         "day": "1",
-        "desc": "元旦",
         "gzDate": "甲寅",
         "gzMonth": "庚子",
         "gzYear": "辛丑",
@@ -15,9 +14,9 @@
         "lunarYear": "2021",
         "month": "1",
         "oDate": "2021-12-31T16:00:00.000Z",
-        "term": "",
+        "status": "1",
+        "term": "元旦",
         "type": "h",
-        "value": "元旦",
         "year": "2022"
     },
     "2": {
@@ -35,6 +34,7 @@
         "lunarYear": "2021",
         "month": "1",
         "oDate": "2022-01-01T16:00:00.000Z",
+        "status": "1",
         "term": "",
         "year": "2022"
     },
@@ -53,6 +53,7 @@
         "lunarYear": "2021",
         "month": "1",
         "oDate": "2022-01-02T16:00:00.000Z",
+        "status": "1",
         "term": "",
         "year": "2022"
     },
@@ -144,8 +145,7 @@
         "lunarYear": "2021",
         "month": "1",
         "oDate": "2022-01-07T16:00:00.000Z",
-        "term": "",
-        "value": "三九",
+        "term": "三九",
         "year": "2022"
     },
     "9": {
@@ -299,6 +299,7 @@
         "animal": "牛",
         "cnDay": "一",
         "day": "17",
+        "desc": "四九",
         "gzDate": "庚午",
         "gzMonth": "辛丑",
         "gzYear": "辛丑",
@@ -311,7 +312,6 @@
         "month": "1",
         "oDate": "2022-01-16T16:00:00.000Z",
         "term": "",
-        "value": "四九",
         "year": "2022"
     },
     "18": {
@@ -444,7 +444,6 @@
         "animal": "牛",
         "cnDay": "二",
         "day": "25",
-        "desc": "北方小年",
         "gzDate": "戊寅",
         "gzMonth": "辛丑",
         "gzYear": "辛丑",
@@ -456,7 +455,7 @@
         "lunarYear": "2021",
         "month": "1",
         "oDate": "2022-01-24T16:00:00.000Z",
-        "term": "",
+        "term": "北小年",
         "type": "t",
         "value": "",
         "year": "2022"
@@ -465,7 +464,7 @@
         "animal": "牛",
         "cnDay": "三",
         "day": "26",
-        "desc": "南方小年",
+        "desc": "五九",
         "gzDate": "己卯",
         "gzMonth": "辛丑",
         "gzYear": "辛丑",
@@ -477,8 +476,8 @@
         "lunarYear": "2021",
         "month": "1",
         "oDate": "2022-01-25T16:00:00.000Z",
-        "term": "国际海关日",
-        "value": "五九",
+        "term": "南小年",
+        "value": "国际海关日",
         "year": "2022"
     },
     "27": {
@@ -532,6 +531,7 @@
         "lunarYear": "2021",
         "month": "1",
         "oDate": "2022-01-28T16:00:00.000Z",
+        "status": "2",
         "term": "",
         "year": "2022"
     },
@@ -550,6 +550,7 @@
         "lunarYear": "2021",
         "month": "1",
         "oDate": "2022-01-29T16:00:00.000Z",
+        "status": "2",
         "term": "",
         "year": "2022"
     },
@@ -557,7 +558,6 @@
         "animal": "牛",
         "cnDay": "一",
         "day": "31",
-        "desc": "除夕",
         "gzDate": "甲申",
         "gzMonth": "辛丑",
         "gzYear": "辛丑",
@@ -569,9 +569,9 @@
         "lunarYear": "2021",
         "month": "1",
         "oDate": "2022-01-30T16:00:00.000Z",
-        "term": "",
+        "status": "1",
+        "term": "除夕",
         "type": "t",
-        "value": "除夕",
         "year": "2022"
     }
 }

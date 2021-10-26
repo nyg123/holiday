@@ -21,7 +21,6 @@
         "animal": "龙",
         "cnDay": "一",
         "day": "2",
-        "desc": "湿地日",
         "gzDate": "乙巳",
         "gzMonth": "辛丑",
         "gzYear": "丙辰",
@@ -60,6 +59,7 @@
         "animal": "龙",
         "cnDay": "三",
         "day": "4",
+        "desc": "六九",
         "gzDate": "丁未",
         "gzMonth": "壬寅",
         "gzYear": "丙辰",
@@ -72,7 +72,6 @@
         "month": "2",
         "oDate": "2037-02-03T16:00:00.000Z",
         "term": "",
-        "value": "六九",
         "year": "2037"
     },
     "5": {
@@ -115,7 +114,6 @@
         "animal": "龙",
         "cnDay": "六",
         "day": "7",
-        "desc": "北方小年",
         "gzDate": "庚戌",
         "gzMonth": "壬寅",
         "gzYear": "丙辰",
@@ -127,7 +125,7 @@
         "lunarYear": "2036",
         "month": "2",
         "oDate": "2037-02-06T16:00:00.000Z",
-        "term": "",
+        "term": "北小年",
         "type": "t",
         "value": "",
         "year": "2037"
@@ -136,7 +134,6 @@
         "animal": "龙",
         "cnDay": "日",
         "day": "8",
-        "desc": "南方小年",
         "gzDate": "辛亥",
         "gzMonth": "壬寅",
         "gzYear": "丙辰",
@@ -148,7 +145,7 @@
         "lunarYear": "2036",
         "month": "2",
         "oDate": "2037-02-07T16:00:00.000Z",
-        "term": "",
+        "term": "南小年",
         "year": "2037"
     },
     "9": {
@@ -173,7 +170,6 @@
         "animal": "龙",
         "cnDay": "二",
         "day": "10",
-        "desc": "国际气象节",
         "gzDate": "癸丑",
         "gzMonth": "壬寅",
         "gzYear": "丙辰",
@@ -186,6 +182,7 @@
         "month": "2",
         "oDate": "2037-02-09T16:00:00.000Z",
         "term": "",
+        "value": "国际气象节",
         "year": "2037"
     },
     "11": {
@@ -239,15 +236,13 @@
         "lunarYear": "2036",
         "month": "2",
         "oDate": "2037-02-12T16:00:00.000Z",
-        "term": "",
-        "value": "七九",
+        "term": "七九",
         "year": "2037"
     },
     "14": {
         "animal": "龙",
         "cnDay": "六",
         "day": "14",
-        "desc": "除夕",
         "gzDate": "丁巳",
         "gzMonth": "壬寅",
         "gzYear": "丙辰",
@@ -259,16 +254,14 @@
         "lunarYear": "2036",
         "month": "2",
         "oDate": "2037-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "除夕",
         "type": "t",
-        "value": "除夕",
         "year": "2037"
     },
     "15": {
         "animal": "蛇",
         "cnDay": "日",
         "day": "15",
-        "desc": "春节",
         "gzDate": "戊午",
         "gzMonth": "壬寅",
         "gzYear": "丁巳",
@@ -280,9 +273,8 @@
         "lunarYear": "2037",
         "month": "2",
         "oDate": "2037-02-14T16:00:00.000Z",
-        "term": "",
+        "term": "春节",
         "type": "t",
-        "value": "春节",
         "year": "2037"
     },
     "16": {
@@ -397,6 +389,7 @@
         "animal": "蛇",
         "cnDay": "日",
         "day": "22",
+        "desc": "八九",
         "gzDate": "乙丑",
         "gzMonth": "壬寅",
         "gzYear": "丁巳",
@@ -409,7 +402,6 @@
         "month": "2",
         "oDate": "2037-02-21T16:00:00.000Z",
         "term": "",
-        "value": "八九",
         "year": "2037"
     },
     "23": {

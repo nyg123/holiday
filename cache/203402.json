@@ -21,7 +21,6 @@
         "animal": "牛",
         "cnDay": "四",
         "day": "2",
-        "desc": "湿地日",
         "gzDate": "己丑",
         "gzMonth": "乙丑",
         "gzYear": "癸丑",
@@ -60,6 +59,7 @@
         "animal": "牛",
         "cnDay": "六",
         "day": "4",
+        "desc": "六九",
         "gzDate": "辛卯",
         "gzMonth": "丙寅",
         "gzYear": "癸丑",
@@ -72,7 +72,6 @@
         "month": "2",
         "oDate": "2034-02-03T16:00:00.000Z",
         "term": "立春",
-        "value": "六九",
         "year": "2034"
     },
     "5": {
@@ -169,7 +168,6 @@
         "animal": "牛",
         "cnDay": "五",
         "day": "10",
-        "desc": "国际气象节",
         "gzDate": "丁酉",
         "gzMonth": "丙寅",
         "gzYear": "癸丑",
@@ -182,13 +180,13 @@
         "month": "2",
         "oDate": "2034-02-09T16:00:00.000Z",
         "term": "",
+        "value": "国际气象节",
         "year": "2034"
     },
     "11": {
         "animal": "牛",
         "cnDay": "六",
         "day": "11",
-        "desc": "北方小年",
         "gzDate": "戊戌",
         "gzMonth": "丙寅",
         "gzYear": "癸丑",
@@ -200,7 +198,7 @@
         "lunarYear": "2033",
         "month": "2",
         "oDate": "2034-02-10T16:00:00.000Z",
-        "term": "",
+        "term": "北小年",
         "type": "t",
         "value": "",
         "year": "2034"
@@ -209,7 +207,6 @@
         "animal": "牛",
         "cnDay": "日",
         "day": "12",
-        "desc": "南方小年",
         "gzDate": "己亥",
         "gzMonth": "丙寅",
         "gzYear": "癸丑",
@@ -221,7 +218,7 @@
         "lunarYear": "2033",
         "month": "2",
         "oDate": "2034-02-11T16:00:00.000Z",
-        "term": "",
+        "term": "南小年",
         "year": "2034"
     },
     "13": {
@@ -239,15 +236,13 @@
         "lunarYear": "2033",
         "month": "2",
         "oDate": "2034-02-12T16:00:00.000Z",
-        "term": "",
-        "value": "七九",
+        "term": "七九",
         "year": "2034"
     },
     "14": {
         "animal": "牛",
         "cnDay": "二",
         "day": "14",
-        "desc": "情人节",
         "gzDate": "辛丑",
         "gzMonth": "丙寅",
         "gzYear": "癸丑",
@@ -259,9 +254,8 @@
         "lunarYear": "2033",
         "month": "2",
         "oDate": "2034-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "情人节",
         "type": "a",
-        "value": "情人节",
         "year": "2034"
     },
     "15": {
@@ -322,7 +316,6 @@
         "animal": "牛",
         "cnDay": "六",
         "day": "18",
-        "desc": "除夕",
         "gzDate": "乙巳",
         "gzMonth": "丙寅",
         "gzYear": "癸丑",
@@ -334,16 +327,14 @@
         "lunarYear": "2033",
         "month": "2",
         "oDate": "2034-02-17T16:00:00.000Z",
-        "term": "雨水",
+        "term": "除夕 雨水",
         "type": "t",
-        "value": "除夕",
         "year": "2034"
     },
     "19": {
         "animal": "虎",
         "cnDay": "日",
         "day": "19",
-        "desc": "春节",
         "gzDate": "丙午",
         "gzMonth": "丙寅",
         "gzYear": "甲寅",
@@ -355,9 +346,8 @@
         "lunarYear": "2034",
         "month": "2",
         "oDate": "2034-02-18T16:00:00.000Z",
-        "term": "",
+        "term": "春节",
         "type": "t",
-        "value": "春节",
         "year": "2034"
     },
     "20": {
@@ -400,6 +390,7 @@
         "animal": "虎",
         "cnDay": "三",
         "day": "22",
+        "desc": "八九",
         "gzDate": "己酉",
         "gzMonth": "丙寅",
         "gzYear": "甲寅",
@@ -412,7 +403,6 @@
         "month": "2",
         "oDate": "2034-02-21T16:00:00.000Z",
         "term": "",
-        "value": "八九",
         "year": "2034"
     },
     "23": {

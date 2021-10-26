@@ -21,7 +21,6 @@
         "animal": "马",
         "cnDay": "三",
         "day": "2",
-        "desc": "湿地日",
         "gzDate": "癸丑",
         "gzMonth": "丁丑",
         "gzYear": "庚午",
@@ -96,7 +95,6 @@
         "animal": "马",
         "cnDay": "日",
         "day": "6",
-        "desc": "元宵节",
         "gzDate": "丁巳",
         "gzMonth": "戊寅",
         "gzYear": "庚午",
@@ -110,7 +108,6 @@
         "oDate": "2050-02-05T16:00:00.000Z",
         "term": "元宵节",
         "type": "t",
-        "value": "元宵节",
         "year": "2050"
     },
     "7": {
@@ -171,7 +168,6 @@
         "animal": "马",
         "cnDay": "四",
         "day": "10",
-        "desc": "国际气象节",
         "gzDate": "辛酉",
         "gzMonth": "戊寅",
         "gzYear": "庚午",
@@ -184,6 +180,7 @@
         "month": "2",
         "oDate": "2050-02-09T16:00:00.000Z",
         "term": "",
+        "value": "国际气象节",
         "year": "2050"
     },
     "11": {
@@ -244,7 +241,6 @@
         "animal": "马",
         "cnDay": "一",
         "day": "14",
-        "desc": "情人节",
         "gzDate": "乙丑",
         "gzMonth": "戊寅",
         "gzYear": "庚午",
@@ -256,9 +252,8 @@
         "lunarYear": "2050",
         "month": "2",
         "oDate": "2050-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "情人节",
         "type": "a",
-        "value": "情人节",
         "year": "2050"
     },
     "15": {
@@ -391,7 +386,6 @@
         "animal": "马",
         "cnDay": "二",
         "day": "22",
-        "desc": "龙头节",
         "gzDate": "癸酉",
         "gzMonth": "戊寅",
         "gzYear": "庚午",

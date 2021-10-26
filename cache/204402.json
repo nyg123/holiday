@@ -21,7 +21,6 @@
         "animal": "鼠",
         "cnDay": "二",
         "day": "2",
-        "desc": "湿地日",
         "gzDate": "辛巳",
         "gzMonth": "乙丑",
         "gzYear": "甲子",
@@ -168,7 +167,6 @@
         "animal": "鼠",
         "cnDay": "三",
         "day": "10",
-        "desc": "国际气象节",
         "gzDate": "己丑",
         "gzMonth": "丙寅",
         "gzYear": "甲子",
@@ -181,6 +179,7 @@
         "month": "2",
         "oDate": "2044-02-09T16:00:00.000Z",
         "term": "",
+        "value": "国际气象节",
         "year": "2044"
     },
     "11": {
@@ -223,7 +222,6 @@
         "animal": "鼠",
         "cnDay": "六",
         "day": "13",
-        "desc": "元宵节",
         "gzDate": "壬辰",
         "gzMonth": "丙寅",
         "gzYear": "甲子",
@@ -237,14 +235,12 @@
         "oDate": "2044-02-12T16:00:00.000Z",
         "term": "元宵节",
         "type": "t",
-        "value": "元宵节",
         "year": "2044"
     },
     "14": {
         "animal": "鼠",
         "cnDay": "日",
         "day": "14",
-        "desc": "情人节",
         "gzDate": "癸巳",
         "gzMonth": "丙寅",
         "gzYear": "甲子",
@@ -256,9 +252,8 @@
         "lunarYear": "2044",
         "month": "2",
         "oDate": "2044-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "情人节",
         "type": "a",
-        "value": "情人节",
         "year": "2044"
     },
     "15": {

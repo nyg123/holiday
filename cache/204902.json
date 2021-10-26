@@ -3,7 +3,6 @@
         "animal": "龙",
         "cnDay": "一",
         "day": "1",
-        "desc": "除夕",
         "gzDate": "丁未",
         "gzMonth": "乙丑",
         "gzYear": "戊辰",
@@ -15,16 +14,14 @@
         "lunarYear": "2048",
         "month": "2",
         "oDate": "2049-01-31T16:00:00.000Z",
-        "term": "",
+        "term": "除夕",
         "type": "t",
-        "value": "除夕",
         "year": "2049"
     },
     "2": {
         "animal": "蛇",
         "cnDay": "二",
         "day": "2",
-        "desc": "春节",
         "gzDate": "戊申",
         "gzMonth": "乙丑",
         "gzYear": "己巳",
@@ -36,9 +33,8 @@
         "lunarYear": "2049",
         "month": "2",
         "oDate": "2049-02-01T16:00:00.000Z",
-        "term": "",
+        "term": "春节",
         "type": "t",
-        "value": "春节",
         "year": "2049"
     },
     "3": {
@@ -171,7 +167,6 @@
         "animal": "蛇",
         "cnDay": "三",
         "day": "10",
-        "desc": "国际气象节",
         "gzDate": "丙辰",
         "gzMonth": "丙寅",
         "gzYear": "己巳",
@@ -184,6 +179,7 @@
         "month": "2",
         "oDate": "2049-02-09T16:00:00.000Z",
         "term": "",
+        "value": "国际气象节",
         "year": "2049"
     },
     "11": {
@@ -244,7 +240,6 @@
         "animal": "蛇",
         "cnDay": "日",
         "day": "14",
-        "desc": "情人节",
         "gzDate": "庚申",
         "gzMonth": "丙寅",
         "gzYear": "己巳",
@@ -256,9 +251,8 @@
         "lunarYear": "2049",
         "month": "2",
         "oDate": "2049-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "情人节",
         "type": "a",
-        "value": "情人节",
         "year": "2049"
     },
     "15": {
@@ -283,7 +277,6 @@
         "animal": "蛇",
         "cnDay": "二",
         "day": "16",
-        "desc": "元宵节",
         "gzDate": "壬戌",
         "gzMonth": "丙寅",
         "gzYear": "己巳",
@@ -297,7 +290,6 @@
         "oDate": "2049-02-15T16:00:00.000Z",
         "term": "元宵节",
         "type": "t",
-        "value": "元宵节",
         "year": "2049"
     },
     "17": {

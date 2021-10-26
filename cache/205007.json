@@ -3,7 +3,6 @@
         "animal": "马",
         "cnDay": "五",
         "day": "1",
-        "desc": "建党节",
         "gzDate": "壬午",
         "gzMonth": "壬午",
         "gzYear": "庚午",
@@ -15,9 +14,9 @@
         "lunarYear": "2050",
         "month": "7",
         "oDate": "2050-06-30T16:00:00.000Z",
-        "term": "香港回归日",
+        "term": "建党节",
         "type": "h",
-        "value": "建党节",
+        "value": "香港回归日",
         "year": "2050"
     },
     "2": {

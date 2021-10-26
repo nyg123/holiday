@@ -3,7 +3,6 @@
         "animal": "鼠",
         "cnDay": "六",
         "day": "1",
-        "desc": "元旦",
         "gzDate": "壬子",
         "gzMonth": "壬子",
         "gzYear": "壬子",
@@ -15,9 +14,8 @@
         "lunarYear": "2032",
         "month": "1",
         "oDate": "2032-12-31T16:00:00.000Z",
-        "term": "",
+        "term": "元旦",
         "type": "h",
-        "value": "元旦",
         "year": "2033"
     },
     "2": {
@@ -145,9 +143,8 @@
         "lunarYear": "2032",
         "month": "1",
         "oDate": "2033-01-07T16:00:00.000Z",
-        "term": "",
+        "term": "三九",
         "type": "t",
-        "value": "三九",
         "year": "2033"
     },
     "9": {
@@ -299,6 +296,7 @@
         "animal": "鼠",
         "cnDay": "一",
         "day": "17",
+        "desc": "四九",
         "gzDate": "戊辰",
         "gzMonth": "癸丑",
         "gzYear": "壬子",
@@ -311,7 +309,6 @@
         "month": "1",
         "oDate": "2033-01-16T16:00:00.000Z",
         "term": "",
-        "value": "四九",
         "year": "2033"
     },
     "18": {
@@ -408,7 +405,6 @@
         "animal": "鼠",
         "cnDay": "日",
         "day": "23",
-        "desc": "北方小年",
         "gzDate": "甲戌",
         "gzMonth": "癸丑",
         "gzYear": "壬子",
@@ -420,7 +416,7 @@
         "lunarYear": "2032",
         "month": "1",
         "oDate": "2033-01-22T16:00:00.000Z",
-        "term": "",
+        "term": "北小年",
         "type": "t",
         "value": "",
         "year": "2033"
@@ -429,7 +425,6 @@
         "animal": "鼠",
         "cnDay": "一",
         "day": "24",
-        "desc": "南方小年",
         "gzDate": "乙亥",
         "gzMonth": "癸丑",
         "gzYear": "壬子",
@@ -441,7 +436,7 @@
         "lunarYear": "2032",
         "month": "1",
         "oDate": "2033-01-23T16:00:00.000Z",
-        "term": "",
+        "term": "南小年",
         "year": "2033"
     },
     "25": {
@@ -466,7 +461,7 @@
         "animal": "鼠",
         "cnDay": "三",
         "day": "26",
-        "desc": "国际海关日",
+        "desc": "五九",
         "gzDate": "丁丑",
         "gzMonth": "癸丑",
         "gzYear": "壬子",
@@ -479,7 +474,7 @@
         "month": "1",
         "oDate": "2033-01-25T16:00:00.000Z",
         "term": "",
-        "value": "五九",
+        "value": "国际海关日",
         "year": "2033"
     },
     "27": {
@@ -540,7 +535,6 @@
         "animal": "鼠",
         "cnDay": "日",
         "day": "30",
-        "desc": "除夕",
         "gzDate": "辛巳",
         "gzMonth": "癸丑",
         "gzYear": "壬子",
@@ -552,16 +546,14 @@
         "lunarYear": "2032",
         "month": "1",
         "oDate": "2033-01-29T16:00:00.000Z",
-        "term": "",
+        "term": "除夕",
         "type": "t",
-        "value": "除夕",
         "year": "2033"
     },
     "31": {
         "animal": "牛",
         "cnDay": "一",
         "day": "31",
-        "desc": "春节",
         "gzDate": "壬午",
         "gzMonth": "癸丑",
         "gzYear": "癸丑",
@@ -573,9 +565,8 @@
         "lunarYear": "2033",
         "month": "1",
         "oDate": "2033-01-30T16:00:00.000Z",
-        "term": "",
+        "term": "春节",
         "type": "t",
-        "value": "春节",
         "year": "2033"
     }
 }

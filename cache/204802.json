@@ -21,7 +21,6 @@
         "animal": "兔",
         "cnDay": "日",
         "day": "2",
-        "desc": "湿地日",
         "gzDate": "壬寅",
         "gzMonth": "癸丑",
         "gzYear": "丁卯",
@@ -96,7 +95,6 @@
         "animal": "兔",
         "cnDay": "四",
         "day": "6",
-        "desc": "北方小年",
         "gzDate": "丙午",
         "gzMonth": "甲寅",
         "gzYear": "丁卯",
@@ -108,7 +106,7 @@
         "lunarYear": "2047",
         "month": "2",
         "oDate": "2048-02-05T16:00:00.000Z",
-        "term": "",
+        "term": "北小年",
         "type": "t",
         "value": "",
         "year": "2048"
@@ -117,7 +115,6 @@
         "animal": "兔",
         "cnDay": "五",
         "day": "7",
-        "desc": "南方小年",
         "gzDate": "丁未",
         "gzMonth": "甲寅",
         "gzYear": "丁卯",
@@ -129,7 +126,7 @@
         "lunarYear": "2047",
         "month": "2",
         "oDate": "2048-02-06T16:00:00.000Z",
-        "term": "",
+        "term": "南小年",
         "year": "2048"
     },
     "8": {
@@ -172,7 +169,6 @@
         "animal": "兔",
         "cnDay": "一",
         "day": "10",
-        "desc": "国际气象节",
         "gzDate": "庚戌",
         "gzMonth": "甲寅",
         "gzYear": "丁卯",
@@ -185,6 +181,7 @@
         "month": "2",
         "oDate": "2048-02-09T16:00:00.000Z",
         "term": "",
+        "value": "国际气象节",
         "year": "2048"
     },
     "11": {
@@ -227,7 +224,6 @@
         "animal": "兔",
         "cnDay": "四",
         "day": "13",
-        "desc": "除夕",
         "gzDate": "癸丑",
         "gzMonth": "甲寅",
         "gzYear": "丁卯",
@@ -239,16 +235,14 @@
         "lunarYear": "2047",
         "month": "2",
         "oDate": "2048-02-12T16:00:00.000Z",
-        "term": "",
+        "term": "除夕",
         "type": "t",
-        "value": "除夕",
         "year": "2048"
     },
     "14": {
         "animal": "龙",
         "cnDay": "五",
         "day": "14",
-        "desc": "春节",
         "gzDate": "甲寅",
         "gzMonth": "甲寅",
         "gzYear": "戊辰",
@@ -260,9 +254,8 @@
         "lunarYear": "2048",
         "month": "2",
         "oDate": "2048-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "春节",
         "type": "t",
-        "value": "春节",
         "year": "2048"
     },
     "15": {
@@ -503,7 +496,6 @@
         "animal": "龙",
         "cnDay": "五",
         "day": "28",
-        "desc": "元宵节",
         "gzDate": "戊辰",
         "gzMonth": "甲寅",
         "gzYear": "戊辰",
@@ -517,7 +509,6 @@
         "oDate": "2048-02-27T16:00:00.000Z",
         "term": "元宵节",
         "type": "t",
-        "value": "元宵节",
         "year": "2048"
     },
     "29": {

@@ -3,7 +3,6 @@
         "animal": "马",
         "cnDay": "日",
         "day": "1",
-        "desc": "劳动节",
         "gzDate": "辛巳",
         "gzMonth": "庚辰",
         "gzYear": "庚午",
@@ -15,9 +14,8 @@
         "lunarYear": "2050",
         "month": "5",
         "oDate": "2050-04-30T16:00:00.000Z",
-        "term": "",
+        "term": "劳动节",
         "type": "i",
-        "value": "劳动节",
         "year": "2050"
     },
     "2": {
@@ -42,7 +40,6 @@
         "animal": "马",
         "cnDay": "二",
         "day": "3",
-        "desc": "世界哮喘日",
         "gzDate": "癸未",
         "gzMonth": "庚辰",
         "gzYear": "庚午",
@@ -55,13 +52,13 @@
         "month": "5",
         "oDate": "2050-05-02T16:00:00.000Z",
         "term": "",
+        "value": "世界哮喘日",
         "year": "2050"
     },
     "4": {
         "animal": "马",
         "cnDay": "三",
         "day": "4",
-        "desc": "五四青年节",
         "gzDate": "甲申",
         "gzMonth": "庚辰",
         "gzYear": "庚午",
@@ -136,7 +133,6 @@
         "animal": "马",
         "cnDay": "日",
         "day": "8",
-        "desc": "母亲节",
         "gzDate": "戊子",
         "gzMonth": "辛巳",
         "gzYear": "庚午",
@@ -148,9 +144,8 @@
         "lunarYear": "2050",
         "month": "5",
         "oDate": "2050-05-07T16:00:00.000Z",
-        "term": "",
+        "term": "母亲节",
         "type": "i",
-        "value": "母亲节",
         "year": "2050"
     },
     "9": {
@@ -211,7 +206,6 @@
         "animal": "马",
         "cnDay": "四",
         "day": "12",
-        "desc": "护士节",
         "gzDate": "壬辰",
         "gzMonth": "辛巳",
         "gzYear": "庚午",
@@ -223,9 +217,8 @@
         "lunarYear": "2050",
         "month": "5",
         "oDate": "2050-05-11T16:00:00.000Z",
-        "term": "防灾减灾日",
         "type": "i",
-        "value": "护士节",
+        "value": "护士节 防灾减灾日",
         "year": "2050"
     },
     "13": {
@@ -322,7 +315,6 @@
         "animal": "马",
         "cnDay": "三",
         "day": "18",
-        "desc": "博物馆日",
         "gzDate": "戊戌",
         "gzMonth": "辛巳",
         "gzYear": "庚午",

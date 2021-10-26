@@ -21,7 +21,6 @@
         "animal": "牛",
         "cnDay": "五",
         "day": "2",
-        "desc": "湿地日",
         "gzDate": "壬辰",
         "gzMonth": "己丑",
         "gzYear": "乙丑",
@@ -78,7 +77,6 @@
         "animal": "牛",
         "cnDay": "一",
         "day": "5",
-        "desc": "除夕",
         "gzDate": "乙未",
         "gzMonth": "庚寅",
         "gzYear": "乙丑",
@@ -90,16 +88,14 @@
         "lunarYear": "2045",
         "month": "2",
         "oDate": "2046-02-04T16:00:00.000Z",
-        "term": "",
+        "term": "除夕",
         "type": "t",
-        "value": "除夕",
         "year": "2046"
     },
     "6": {
         "animal": "虎",
         "cnDay": "二",
         "day": "6",
-        "desc": "春节",
         "gzDate": "丙申",
         "gzMonth": "庚寅",
         "gzYear": "丙寅",
@@ -111,9 +107,8 @@
         "lunarYear": "2046",
         "month": "2",
         "oDate": "2046-02-05T16:00:00.000Z",
-        "term": "",
+        "term": "春节",
         "type": "t",
-        "value": "春节",
         "year": "2046"
     },
     "7": {
@@ -174,7 +169,6 @@
         "animal": "虎",
         "cnDay": "六",
         "day": "10",
-        "desc": "国际气象节",
         "gzDate": "庚子",
         "gzMonth": "庚寅",
         "gzYear": "丙寅",
@@ -187,6 +181,7 @@
         "month": "2",
         "oDate": "2046-02-09T16:00:00.000Z",
         "term": "",
+        "value": "国际气象节",
         "year": "2046"
     },
     "11": {
@@ -247,7 +242,6 @@
         "animal": "虎",
         "cnDay": "三",
         "day": "14",
-        "desc": "情人节",
         "gzDate": "甲辰",
         "gzMonth": "庚寅",
         "gzYear": "丙寅",
@@ -259,9 +253,8 @@
         "lunarYear": "2046",
         "month": "2",
         "oDate": "2046-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "情人节",
         "type": "a",
-        "value": "情人节",
         "year": "2046"
     },
     "15": {
@@ -358,7 +351,6 @@
         "animal": "虎",
         "cnDay": "二",
         "day": "20",
-        "desc": "元宵节",
         "gzDate": "庚戌",
         "gzMonth": "庚寅",
         "gzYear": "丙寅",
@@ -372,7 +364,6 @@
         "oDate": "2046-02-19T16:00:00.000Z",
         "term": "元宵节",
         "type": "t",
-        "value": "元宵节",
         "year": "2046"
     },
     "21": {

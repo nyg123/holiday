@@ -3,7 +3,6 @@
         "animal": "虎",
         "cnDay": "二",
         "day": "1",
-        "desc": "元旦",
         "gzDate": "乙丑",
         "gzMonth": "庚子",
         "gzYear": "丙寅",
@@ -15,9 +14,8 @@
         "lunarYear": "2046",
         "month": "1",
         "oDate": "2046-12-31T16:00:00.000Z",
-        "term": "",
+        "term": "元旦",
         "type": "h",
-        "value": "元旦",
         "year": "2047"
     },
     "2": {
@@ -56,7 +54,6 @@
         "oDate": "2047-01-02T16:00:00.000Z",
         "term": "",
         "type": "t",
-        "value": "腊八节",
         "year": "2047"
     },
     "4": {
@@ -317,7 +314,6 @@
         "animal": "虎",
         "cnDay": "五",
         "day": "18",
-        "desc": "北方小年",
         "gzDate": "壬午",
         "gzMonth": "辛丑",
         "gzYear": "丙寅",
@@ -329,7 +325,7 @@
         "lunarYear": "2046",
         "month": "1",
         "oDate": "2047-01-17T16:00:00.000Z",
-        "term": "",
+        "term": "北小年",
         "type": "t",
         "value": "",
         "year": "2047"
@@ -338,7 +334,6 @@
         "animal": "虎",
         "cnDay": "六",
         "day": "19",
-        "desc": "南方小年",
         "gzDate": "癸未",
         "gzMonth": "辛丑",
         "gzYear": "丙寅",
@@ -350,7 +345,7 @@
         "lunarYear": "2046",
         "month": "1",
         "oDate": "2047-01-18T16:00:00.000Z",
-        "term": "",
+        "term": "南小年",
         "year": "2047"
     },
     "20": {
@@ -447,7 +442,6 @@
         "animal": "虎",
         "cnDay": "五",
         "day": "25",
-        "desc": "除夕",
         "gzDate": "己丑",
         "gzMonth": "辛丑",
         "gzYear": "丙寅",
@@ -459,16 +453,14 @@
         "lunarYear": "2046",
         "month": "1",
         "oDate": "2047-01-24T16:00:00.000Z",
-        "term": "",
+        "term": "除夕",
         "type": "t",
-        "value": "除夕",
         "year": "2047"
     },
     "26": {
         "animal": "兔",
         "cnDay": "六",
         "day": "26",
-        "desc": "春节",
         "gzDate": "庚寅",
         "gzMonth": "辛丑",
         "gzYear": "丁卯",
@@ -480,9 +472,9 @@
         "lunarYear": "2047",
         "month": "1",
         "oDate": "2047-01-25T16:00:00.000Z",
-        "term": "国际海关日",
+        "term": "春节",
         "type": "t",
-        "value": "春节",
+        "value": "国际海关日",
         "year": "2047"
     },
     "27": {

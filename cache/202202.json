@@ -3,7 +3,6 @@
         "animal": "虎",
         "cnDay": "二",
         "day": "1",
-        "desc": "春节",
         "gzDate": "乙酉",
         "gzMonth": "辛丑",
         "gzYear": "壬寅",
@@ -15,16 +14,15 @@
         "lunarYear": "2022",
         "month": "2",
         "oDate": "2022-01-31T16:00:00.000Z",
-        "term": "",
+        "status": "1",
+        "term": "春节",
         "type": "t",
-        "value": "春节",
         "year": "2022"
     },
     "2": {
         "animal": "虎",
         "cnDay": "三",
         "day": "2",
-        "desc": "湿地日",
         "gzDate": "丙戌",
         "gzMonth": "辛丑",
         "gzYear": "壬寅",
@@ -36,6 +34,7 @@
         "lunarYear": "2022",
         "month": "2",
         "oDate": "2022-02-01T16:00:00.000Z",
+        "status": "1",
         "term": "",
         "type": "i",
         "value": "湿地日",
@@ -56,6 +55,7 @@
         "lunarYear": "2022",
         "month": "2",
         "oDate": "2022-02-02T16:00:00.000Z",
+        "status": "1",
         "term": "",
         "year": "2022"
     },
@@ -63,6 +63,7 @@
         "animal": "虎",
         "cnDay": "五",
         "day": "4",
+        "desc": "六九",
         "gzDate": "戊子",
         "gzMonth": "壬寅",
         "gzYear": "壬寅",
@@ -74,8 +75,8 @@
         "lunarYear": "2022",
         "month": "2",
         "oDate": "2022-02-03T16:00:00.000Z",
+        "status": "1",
         "term": "立春",
-        "value": "六九",
         "year": "2022"
     },
     "5": {
@@ -93,6 +94,7 @@
         "lunarYear": "2022",
         "month": "2",
         "oDate": "2022-02-04T16:00:00.000Z",
+        "status": "1",
         "term": "",
         "year": "2022"
     },
@@ -111,6 +113,7 @@
         "lunarYear": "2022",
         "month": "2",
         "oDate": "2022-02-05T16:00:00.000Z",
+        "status": "1",
         "term": "",
         "year": "2022"
     },
@@ -172,7 +175,6 @@
         "animal": "虎",
         "cnDay": "四",
         "day": "10",
-        "desc": "国际气象节",
         "gzDate": "甲午",
         "gzMonth": "壬寅",
         "gzYear": "壬寅",
@@ -185,6 +187,7 @@
         "month": "2",
         "oDate": "2022-02-09T16:00:00.000Z",
         "term": "",
+        "value": "国际气象节",
         "year": "2022"
     },
     "11": {
@@ -238,15 +241,13 @@
         "lunarYear": "2022",
         "month": "2",
         "oDate": "2022-02-12T16:00:00.000Z",
-        "term": "",
-        "value": "七九",
+        "term": "七九",
         "year": "2022"
     },
     "14": {
         "animal": "虎",
         "cnDay": "一",
         "day": "14",
-        "desc": "情人节",
         "gzDate": "戊戌",
         "gzMonth": "壬寅",
         "gzYear": "壬寅",
@@ -258,16 +259,14 @@
         "lunarYear": "2022",
         "month": "2",
         "oDate": "2022-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "情人节",
         "type": "a",
-        "value": "情人节",
         "year": "2022"
     },
     "15": {
         "animal": "虎",
         "cnDay": "二",
         "day": "15",
-        "desc": "元宵节",
         "gzDate": "己亥",
         "gzMonth": "壬寅",
         "gzYear": "壬寅",
@@ -281,7 +280,6 @@
         "oDate": "2022-02-14T16:00:00.000Z",
         "term": "元宵节",
         "type": "t",
-        "value": "元宵节",
         "year": "2022"
     },
     "16": {
@@ -396,6 +394,7 @@
         "animal": "虎",
         "cnDay": "二",
         "day": "22",
+        "desc": "八九",
         "gzDate": "丙午",
         "gzMonth": "壬寅",
         "gzYear": "壬寅",
@@ -408,7 +407,6 @@
         "month": "2",
         "oDate": "2022-02-21T16:00:00.000Z",
         "term": "",
-        "value": "八九",
         "year": "2022"
     },
     "23": {

@@ -3,7 +3,6 @@
         "animal": "虎",
         "cnDay": "六",
         "day": "1",
-        "desc": "国庆节",
         "gzDate": "丁亥",
         "gzMonth": "己酉",
         "gzYear": "壬寅",
@@ -15,6 +14,7 @@
         "lunarYear": "2022",
         "month": "10",
         "oDate": "2022-09-30T16:00:00.000Z",
+        "status": "1",
         "term": "国庆节",
         "type": "h",
         "value": "国际音乐日",
@@ -35,6 +35,7 @@
         "lunarYear": "2022",
         "month": "10",
         "oDate": "2022-10-01T16:00:00.000Z",
+        "status": "1",
         "term": "",
         "year": "2022"
     },
@@ -53,6 +54,7 @@
         "lunarYear": "2022",
         "month": "10",
         "oDate": "2022-10-02T16:00:00.000Z",
+        "status": "1",
         "term": "",
         "year": "2022"
     },
@@ -60,7 +62,6 @@
         "animal": "虎",
         "cnDay": "二",
         "day": "4",
-        "desc": "重阳节",
         "gzDate": "庚寅",
         "gzMonth": "己酉",
         "gzYear": "壬寅",
@@ -72,6 +73,7 @@
         "lunarYear": "2022",
         "month": "10",
         "oDate": "2022-10-03T16:00:00.000Z",
+        "status": "1",
         "term": "重阳节",
         "type": "t",
         "value": "世界动物日",
@@ -81,7 +83,6 @@
         "animal": "虎",
         "cnDay": "三",
         "day": "5",
-        "desc": "世界教师日",
         "gzDate": "辛卯",
         "gzMonth": "己酉",
         "gzYear": "壬寅",
@@ -93,7 +94,9 @@
         "lunarYear": "2022",
         "month": "10",
         "oDate": "2022-10-04T16:00:00.000Z",
+        "status": "1",
         "term": "",
+        "value": "世界教师日",
         "year": "2022"
     },
     "6": {
@@ -111,6 +114,7 @@
         "lunarYear": "2022",
         "month": "10",
         "oDate": "2022-10-05T16:00:00.000Z",
+        "status": "1",
         "term": "",
         "year": "2022"
     },
@@ -129,6 +133,7 @@
         "lunarYear": "2022",
         "month": "10",
         "oDate": "2022-10-06T16:00:00.000Z",
+        "status": "1",
         "term": "",
         "year": "2022"
     },
@@ -136,7 +141,6 @@
         "animal": "虎",
         "cnDay": "六",
         "day": "8",
-        "desc": "全国高血压日",
         "gzDate": "甲午",
         "gzMonth": "庚戌",
         "gzYear": "壬寅",
@@ -148,14 +152,15 @@
         "lunarYear": "2022",
         "month": "10",
         "oDate": "2022-10-07T16:00:00.000Z",
+        "status": "2",
         "term": "寒露",
+        "value": "全国高血压日",
         "year": "2022"
     },
     "9": {
         "animal": "虎",
         "cnDay": "日",
         "day": "9",
-        "desc": "世界邮政日",
         "gzDate": "乙未",
         "gzMonth": "庚戌",
         "gzYear": "壬寅",
@@ -167,7 +172,9 @@
         "lunarYear": "2022",
         "month": "10",
         "oDate": "2022-10-08T16:00:00.000Z",
+        "status": "2",
         "term": "",
+        "value": "世界邮政日",
         "year": "2022"
     },
     "10": {
@@ -228,7 +235,6 @@
         "animal": "虎",
         "cnDay": "四",
         "day": "13",
-        "desc": "世界保健日",
         "gzDate": "己亥",
         "gzMonth": "庚戌",
         "gzYear": "壬寅",
@@ -241,6 +247,7 @@
         "month": "10",
         "oDate": "2022-10-12T16:00:00.000Z",
         "term": "",
+        "value": "世界保健日",
         "year": "2022"
     },
     "14": {
@@ -266,7 +273,6 @@
         "animal": "虎",
         "cnDay": "六",
         "day": "15",
-        "desc": "国际盲人节",
         "gzDate": "辛丑",
         "gzMonth": "庚戌",
         "gzYear": "壬寅",
@@ -279,13 +285,13 @@
         "month": "10",
         "oDate": "2022-10-14T16:00:00.000Z",
         "term": "",
+        "value": "国际盲人节",
         "year": "2022"
     },
     "16": {
         "animal": "虎",
         "cnDay": "日",
         "day": "16",
-        "desc": "世界粮食日",
         "gzDate": "壬寅",
         "gzMonth": "庚戌",
         "gzYear": "壬寅",
@@ -298,6 +304,7 @@
         "month": "10",
         "oDate": "2022-10-15T16:00:00.000Z",
         "term": "",
+        "value": "世界粮食日",
         "year": "2022"
     },
     "17": {
@@ -433,7 +440,6 @@
         "animal": "虎",
         "cnDay": "一",
         "day": "24",
-        "desc": "程序员节",
         "gzDate": "庚戌",
         "gzMonth": "庚戌",
         "gzYear": "壬寅",
@@ -445,14 +451,13 @@
         "lunarYear": "2022",
         "month": "10",
         "oDate": "2022-10-23T16:00:00.000Z",
-        "term": "联合国日",
+        "value": "程序员节 联合国日",
         "year": "2022"
     },
     "25": {
         "animal": "虎",
         "cnDay": "二",
         "day": "25",
-        "desc": "寒衣节",
         "gzDate": "辛亥",
         "gzMonth": "庚戌",
         "gzYear": "壬寅",
@@ -574,7 +579,7 @@
         "lunarYear": "2022",
         "month": "10",
         "oDate": "2022-10-30T16:00:00.000Z",
-        "term": "",
+        "term": "万圣夜",
         "year": "2022"
     }
 }

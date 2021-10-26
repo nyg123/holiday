@@ -3,7 +3,6 @@
         "animal": "马",
         "cnDay": "六",
         "day": "1",
-        "desc": "元旦",
         "gzDate": "癸未",
         "gzMonth": "甲子",
         "gzYear": "戊午",
@@ -15,9 +14,8 @@
         "lunarYear": "2038",
         "month": "1",
         "oDate": "2038-12-31T16:00:00.000Z",
-        "term": "",
+        "term": "元旦",
         "type": "h",
-        "value": "元旦",
         "year": "2039"
     },
     "2": {
@@ -38,7 +36,6 @@
         "oDate": "2039-01-01T16:00:00.000Z",
         "term": "",
         "type": "t",
-        "value": "腊八节",
         "year": "2039"
     },
     "3": {
@@ -165,8 +162,7 @@
         "lunarYear": "2038",
         "month": "1",
         "oDate": "2039-01-08T16:00:00.000Z",
-        "term": "",
-        "value": "三九",
+        "term": "三九",
         "year": "2039"
     },
     "10": {
@@ -300,7 +296,6 @@
         "animal": "马",
         "cnDay": "一",
         "day": "17",
-        "desc": "北方小年",
         "gzDate": "己亥",
         "gzMonth": "乙丑",
         "gzYear": "戊午",
@@ -312,7 +307,7 @@
         "lunarYear": "2038",
         "month": "1",
         "oDate": "2039-01-16T16:00:00.000Z",
-        "term": "",
+        "term": "北小年",
         "type": "t",
         "value": "",
         "year": "2039"
@@ -321,7 +316,7 @@
         "animal": "马",
         "cnDay": "二",
         "day": "18",
-        "desc": "南方小年",
+        "desc": "四九",
         "gzDate": "庚子",
         "gzMonth": "乙丑",
         "gzYear": "戊午",
@@ -333,8 +328,7 @@
         "lunarYear": "2038",
         "month": "1",
         "oDate": "2039-01-17T16:00:00.000Z",
-        "term": "",
-        "value": "四九",
+        "term": "南小年",
         "year": "2039"
     },
     "19": {
@@ -413,7 +407,6 @@
         "animal": "马",
         "cnDay": "日",
         "day": "23",
-        "desc": "除夕",
         "gzDate": "乙巳",
         "gzMonth": "乙丑",
         "gzYear": "戊午",
@@ -425,16 +418,14 @@
         "lunarYear": "2038",
         "month": "1",
         "oDate": "2039-01-22T16:00:00.000Z",
-        "term": "",
+        "term": "除夕",
         "type": "t",
-        "value": "除夕",
         "year": "2039"
     },
     "24": {
         "animal": "羊",
         "cnDay": "一",
         "day": "24",
-        "desc": "春节",
         "gzDate": "丙午",
         "gzMonth": "乙丑",
         "gzYear": "己未",
@@ -446,9 +437,8 @@
         "lunarYear": "2039",
         "month": "1",
         "oDate": "2039-01-23T16:00:00.000Z",
-        "term": "",
+        "term": "春节",
         "type": "t",
-        "value": "春节",
         "year": "2039"
     },
     "25": {
@@ -473,7 +463,6 @@
         "animal": "羊",
         "cnDay": "三",
         "day": "26",
-        "desc": "国际海关日",
         "gzDate": "戊申",
         "gzMonth": "乙丑",
         "gzYear": "己未",
@@ -486,12 +475,14 @@
         "month": "1",
         "oDate": "2039-01-25T16:00:00.000Z",
         "term": "",
+        "value": "国际海关日",
         "year": "2039"
     },
     "27": {
         "animal": "羊",
         "cnDay": "四",
         "day": "27",
+        "desc": "五九",
         "gzDate": "己酉",
         "gzMonth": "乙丑",
         "gzYear": "己未",
@@ -504,7 +495,6 @@
         "month": "1",
         "oDate": "2039-01-26T16:00:00.000Z",
         "term": "",
-        "value": "五九",
         "year": "2039"
     },
     "28": {

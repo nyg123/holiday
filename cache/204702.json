@@ -21,7 +21,6 @@
         "animal": "兔",
         "cnDay": "六",
         "day": "2",
-        "desc": "湿地日",
         "gzDate": "丁酉",
         "gzMonth": "辛丑",
         "gzYear": "丁卯",
@@ -150,7 +149,6 @@
         "animal": "兔",
         "cnDay": "六",
         "day": "9",
-        "desc": "元宵节",
         "gzDate": "甲辰",
         "gzMonth": "壬寅",
         "gzYear": "丁卯",
@@ -164,14 +162,12 @@
         "oDate": "2047-02-08T16:00:00.000Z",
         "term": "元宵节",
         "type": "t",
-        "value": "元宵节",
         "year": "2047"
     },
     "10": {
         "animal": "兔",
         "cnDay": "日",
         "day": "10",
-        "desc": "国际气象节",
         "gzDate": "乙巳",
         "gzMonth": "壬寅",
         "gzYear": "丁卯",
@@ -184,6 +180,7 @@
         "month": "2",
         "oDate": "2047-02-09T16:00:00.000Z",
         "term": "",
+        "value": "国际气象节",
         "year": "2047"
     },
     "11": {
@@ -244,7 +241,6 @@
         "animal": "兔",
         "cnDay": "四",
         "day": "14",
-        "desc": "情人节",
         "gzDate": "己酉",
         "gzMonth": "壬寅",
         "gzYear": "丁卯",
@@ -256,9 +252,8 @@
         "lunarYear": "2047",
         "month": "2",
         "oDate": "2047-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "情人节",
         "type": "a",
-        "value": "情人节",
         "year": "2047"
     },
     "15": {
@@ -463,7 +458,6 @@
         "animal": "兔",
         "cnDay": "二",
         "day": "26",
-        "desc": "龙头节",
         "gzDate": "辛酉",
         "gzMonth": "壬寅",
         "gzYear": "丁卯",

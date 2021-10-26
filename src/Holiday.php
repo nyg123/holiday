@@ -8,13 +8,21 @@ class Holiday
      * 全部节假日 包括周末
      */
     const TYPE_ALL = 1;
-    const TYPE_WEENEND = 2; //普通的周末，2倍工资的那种
+
+    /**
+     * 普通的周末，2倍工资的那种
+     */
+    const TYPE_WEENEND = 2;
 
     /**
      * 只包含节日，3倍工资的那种，节日当天
      */
     const TYPE_HOLIDAY = 3;
-    const TYPE_VACATION = 4; //节假日，节日+节日前后调休的部分
+
+    /**
+     * 节假日，节日+节日前后调休的部分
+     */
+    const TYPE_VACATION = 4;
     private $data;
 
     /**
@@ -97,8 +105,7 @@ class Holiday
     private function getDay($time)
     {
         $month = $this->getMonth($time);
-        $day = $month[date('j', $time)];
-        return $day;
+        return $month[date('j', $time)];
     }
 
     /**
@@ -127,33 +134,14 @@ class Holiday
                 $name = '国庆节';
                 break;
         }
-        if (isset($day['value'])) {
-            switch (trim($day['value'])) {
-                case '除夕':
-                case '春节':
-                    $name = '春节';
-                    break;
-                case '端午节':
-                    $name = '端午节';
-                    break;
-                case '中秋节':
-                    $name = '中秋节';
-                    break;
-            }
+        if (isset($day['value']) && $this->checkName($day['value'])) {
+            $name = $this->checkName($day['value']);
         }
-        if (isset($day['festival'])) {
-            switch (trim($day['festival'])) {
-                case '除夕':
-                case '春节':
-                    $name = '春节';
-                    break;
-                case '端午节':
-                    $name = '端午节';
-                    break;
-                case '中秋节':
-                    $name = '中秋节';
-                    break;
-            }
+        if (isset($day['festival']) && $this->checkName($day['festival'])) {
+            $name = $this->checkName($day['festival']);
+        }
+        if (isset($day['term']) && $this->checkName($day['term'])) {
+            $name = $this->checkName($day['term']);
         }
         if ($day['lMonth'] == '正' && ($day['lDate'] == '初二' || $day['lDate'] == '初一')) {//正月初二属于中国假期
             $name = '春节';
@@ -161,8 +149,32 @@ class Holiday
         if (date('Y', $time) == 2014 && $day['lMonth'] == '正' && $day['lDate'] == '初三') { //2014年初三是假期
             $name = '春节';
         }
-        if ($day['term'] == '清明节' || $day['term'] == '清明') { //中国节气
-            $name = '清明节';
+        return $name;
+    }
+
+    /**
+     * 检测节日名字
+     * @param $data
+     * @return string
+     */
+    private function checkName($data)
+    {
+        $name = "";
+        switch (trim($data)) {
+            case '除夕':
+            case '春节':
+                $name = '春节';
+                break;
+            case '端午节':
+                $name = '端午节';
+                break;
+            case '中秋节':
+                $name = '中秋节';
+                break;
+            case '清明节':
+            case '清明':
+                $name = '清明节';
+                break;
         }
         return $name;
     }

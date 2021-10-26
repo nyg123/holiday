@@ -21,7 +21,6 @@
         "animal": "狗",
         "cnDay": "日",
         "day": "2",
-        "desc": "湿地日",
         "gzDate": "辛未",
         "gzMonth": "辛丑",
         "gzYear": "壬戌",
@@ -78,7 +77,6 @@
         "animal": "狗",
         "cnDay": "三",
         "day": "5",
-        "desc": "元宵节",
         "gzDate": "甲戌",
         "gzMonth": "壬寅",
         "gzYear": "壬戌",
@@ -92,7 +90,6 @@
         "oDate": "2042-02-04T16:00:00.000Z",
         "term": "元宵节",
         "type": "t",
-        "value": "元宵节",
         "year": "2042"
     },
     "6": {
@@ -171,7 +168,6 @@
         "animal": "狗",
         "cnDay": "一",
         "day": "10",
-        "desc": "国际气象节",
         "gzDate": "己卯",
         "gzMonth": "壬寅",
         "gzYear": "壬戌",
@@ -184,6 +180,7 @@
         "month": "2",
         "oDate": "2042-02-09T16:00:00.000Z",
         "term": "",
+        "value": "国际气象节",
         "year": "2042"
     },
     "11": {
@@ -244,7 +241,6 @@
         "animal": "狗",
         "cnDay": "五",
         "day": "14",
-        "desc": "情人节",
         "gzDate": "癸未",
         "gzMonth": "壬寅",
         "gzYear": "壬戌",
@@ -256,9 +252,8 @@
         "lunarYear": "2042",
         "month": "2",
         "oDate": "2042-02-13T16:00:00.000Z",
-        "term": "",
+        "term": "情人节",
         "type": "a",
-        "value": "情人节",
         "year": "2042"
     },
     "15": {
@@ -373,7 +368,6 @@
         "animal": "狗",
         "cnDay": "五",
         "day": "21",
-        "desc": "龙头节",
         "gzDate": "庚寅",
         "gzMonth": "壬寅",
         "gzYear": "壬戌",

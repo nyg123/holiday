@@ -3,7 +3,6 @@
         "animal": "猴",
         "cnDay": "二",
         "day": "1",
-        "desc": "元旦",
         "gzDate": "甲午",
         "gzMonth": "戊子",
         "gzYear": "庚申",
@@ -15,9 +14,8 @@
         "lunarYear": "2040",
         "month": "1",
         "oDate": "2040-12-31T16:00:00.000Z",
-        "term": "",
+        "term": "元旦",
         "type": "h",
-        "value": "元旦",
         "year": "2041"
     },
     "2": {
@@ -442,7 +440,6 @@
         "animal": "猴",
         "cnDay": "五",
         "day": "25",
-        "desc": "北方小年",
         "gzDate": "戊午",
         "gzMonth": "己丑",
         "gzYear": "庚申",
@@ -454,7 +451,7 @@
         "lunarYear": "2040",
         "month": "1",
         "oDate": "2041-01-24T16:00:00.000Z",
-        "term": "",
+        "term": "北小年",
         "type": "t",
         "value": "",
         "year": "2041"
@@ -463,7 +460,6 @@
         "animal": "猴",
         "cnDay": "六",
         "day": "26",
-        "desc": "南方小年",
         "gzDate": "己未",
         "gzMonth": "己丑",
         "gzYear": "庚申",
@@ -475,7 +471,8 @@
         "lunarYear": "2040",
         "month": "1",
         "oDate": "2041-01-25T16:00:00.000Z",
-        "term": "国际海关日",
+        "term": "南小年",
+        "value": "国际海关日",
         "year": "2041"
     },
     "27": {
@@ -554,7 +551,6 @@
         "animal": "猴",
         "cnDay": "四",
         "day": "31",
-        "desc": "除夕",
         "gzDate": "甲子",
         "gzMonth": "己丑",
         "gzYear": "庚申",
@@ -566,9 +562,8 @@
         "lunarYear": "2040",
         "month": "1",
         "oDate": "2041-01-30T16:00:00.000Z",
-        "term": "",
+        "term": "除夕",
         "type": "t",
-        "value": "除夕",
         "year": "2041"
     }
 }
