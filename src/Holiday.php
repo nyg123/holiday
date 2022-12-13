@@ -149,6 +149,14 @@ class Holiday
         if (date('Y', $time) == 2014 && $day['lMonth'] == '正' && $day['lDate'] == '初三') { //2014年初三是假期
             $name = '春节';
         }
+        if (date('Y', $time) == 2023) {
+            if ($day['lMonth'] == '正' && $day['lDate'] == '初三') { //2023年初三是假期
+                $name = '春节';
+            }
+            if (date('Y-m-d', $time) == "2023-01-21") { //2023年除夕j是最日不是假日
+                $name = '';
+            }
+        }
         return $name;
     }
 
@@ -269,8 +277,7 @@ class Holiday
                 $tmp[$v2['day']] = $v2;
             }
             $this->data[$k] = $tmp;
-            file_put_contents(__DIR__ . '/../cache/' . $k . ".json",
-                json_encode($tmp, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            file_put_contents(__DIR__ . '/../cache/' . $k . ".json", json_encode($tmp, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
         }
         return true;
     }
